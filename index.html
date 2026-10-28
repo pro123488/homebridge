@@ -1114,8 +1114,8 @@ html[data-tarjetas="soft"] .b:hover { box-shadow: var(--cl-sh-h); }
       <div class="about-visual reveal">
         <div class="arch">
           <svg class="scene" viewBox="0 -160 560 700" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><rect x="0" y="-160" width="560" height="161" fill="#0b1f3a"/><use href="#art-scene" x="0" y="0" width="560" height="540"/></svg>
-          <!-- Para usar la foto del ejecutivo: guárdala como images/ejecutivo.jpg (se mostrará automáticamente) -->
-          <img src="images/ejecutivo.jpg" alt="Ejecutivo inmobiliario de HomeBridge" width="440" height="550" loading="lazy" onerror="this.remove()">
+          <!-- Para usar la foto del ejecutivo: guárdala como ejecutivo.jpg (se mostrará automáticamente) -->
+          <img src="ejecutivo.jpg" alt="Ejecutivo inmobiliario de HomeBridge" width="440" height="550" loading="lazy" onerror="this.remove()">
         </div>
         <div class="spin" aria-hidden="true">
           <span class="disc"></span>
@@ -1347,12 +1347,12 @@ html[data-tarjetas="soft"] .b:hover { box-shadow: var(--cl-sh-h); }
       Campos (solo "titulo" es obligatorio):
         titulo, operacion ("Venta" | "Alquiler"),
         tipo, ubicacion, precio (texto libre), habitaciones, banos,
-        area, detalle (una línea con más datos), imagen ("images/casa-1.jpg"),
+        area, detalle (una línea con más datos), imagen ("casa-1.jpg"),
         enlace (dirección de la publicación en Instagram, opcional)
       Ejemplo (quita los // para activarlo):
         // { titulo: "Casa de 3 habitaciones con patio", operacion: "Venta", tipo: "Casa",
         //   ubicacion: "Tu ciudad, barrio", precio: "$ 350.000.000", habitaciones: 3, banos: 2,
-        //   area: "120 m²", detalle: "Estrato 4 · Garaje doble", imagen: "images/casa-1.jpg",
+        //   area: "120 m²", detalle: "Estrato 4 · Garaje doble", imagen: "casa-1.jpg",
         //   enlace: "https://www.instagram.com/p/XXXXXXXXXXX/" },
 
    2) TESTIMONIOS: agrega testimonios REALES (con permiso). Mientras
@@ -1377,7 +1377,7 @@ window.PROPIEDADES = [
     habitaciones: "2 o 3",
     area: "205 y 485 m²",
     detalle: "Una sola torre, 1 apartamento por piso · 4 parqueaderos y 2 depósitos · Spa, gimnasio, piscina y sky bar",
-    imagen: "images/prop-01-apartamentos-estreno.jpg",
+    imagen: "prop-01-apartamentos-estreno.jpg",
     enlace: "https://www.instagram.com/p/C0zS59JLuTC/",
   },
   {
@@ -1387,7 +1387,7 @@ window.PROPIEDADES = [
     ubicacion: "Brickell, Miami",
     habitaciones: "Estudio a 3",
     detalle: "Dos torres de 67 pisos · Inversión de alta valorización y con beneficios tributarios",
-    imagen: "images/prop-02-mercedes-benz-miami.jpg",
+    imagen: "prop-02-mercedes-benz-miami.jpg",
     enlace: "https://www.instagram.com/p/C9kdbtIuYTQ/",
   },
   {
@@ -1400,7 +1400,7 @@ window.PROPIEDADES = [
     banos: 5,
     area: "460 m²",
     detalle: "Terraza · Garaje cubierto para 2 vehículos · Vigilancia privada 24 horas",
-    imagen: "images/prop-03-riomar-460m2.jpg",
+    imagen: "prop-03-riomar-460m2.jpg",
     enlace: "https://www.instagram.com/p/C8xGmtWOXB_/",
   },
   {
@@ -1412,7 +1412,7 @@ window.PROPIEDADES = [
     habitaciones: 3,
     area: "148 m²",
     detalle: "Administración $613.000 · Estudio con balcón · Patio y cuarto de servicio",
-    imagen: "images/prop-04-casa-villacampestre.jpg",
+    imagen: "prop-04-casa-villacampestre.jpg",
     enlace: "https://www.instagram.com/p/DeaRDF0xzk8/",
   },
   {
@@ -1423,7 +1423,7 @@ window.PROPIEDADES = [
     precio: "$ 300.000.000",
     area: "92 m²",
     detalle: "Valor de negociación · Exentos de impuesto predial · Administración $800.426",
-    imagen: "images/prop-05-locales-alto-prado.jpg",
+    imagen: "prop-05-locales-alto-prado.jpg",
     enlace: "https://www.instagram.com/p/DeXxdxxxbIW/",
   },
   {
@@ -1435,7 +1435,7 @@ window.PROPIEDADES = [
     banos: 2,
     area: "68,35 m²",
     detalle: "5.º piso con vista a la ciudad · Terraza de 20 m² · Cocina abierta tipo loft",
-    imagen: "images/prop-06-apto-calle-93.jpg",
+    imagen: "prop-06-apto-calle-93.jpg",
     enlace: "https://www.instagram.com/p/Ddr21NwBP9Y/",
   },
   {
@@ -1446,7 +1446,7 @@ window.PROPIEDADES = [
     precio: "$ 2.600.000.000",
     area: "800 m²",
     detalle: "Ideal para inversión, un proyecto inmobiliario, una familia numerosa o una empresa",
-    imagen: "images/prop-07-propiedad-norte-800m2.jpg",
+    imagen: "prop-07-propiedad-norte-800m2.jpg",
     enlace: "https://www.instagram.com/p/DdomBiMxfnV/",
   },
   {
@@ -1457,7 +1457,7 @@ window.PROPIEDADES = [
     precio: "$ 430.000.000",
     habitaciones: 2,
     detalle: "Torre de 12 pisos · Administración $530.000 · Piscina, gimnasio y salón de eventos",
-    imagen: "images/prop-08-apto-calle-86.jpg",
+    imagen: "prop-08-apto-calle-86.jpg",
     enlace: "https://www.instagram.com/p/DdT7DeOx5Hj/",
   },
   {
@@ -1469,7 +1469,7 @@ window.PROPIEDADES = [
     habitaciones: 3,
     area: "172 m²",
     detalle: "Piso 6 · Estrato 5 · 2 parqueaderos · Administración $1.015.000",
-    imagen: "images/prop-09-duplex-villacountry.jpg",
+    imagen: "prop-09-duplex-villacountry.jpg",
     enlace: "https://www.instagram.com/p/DdHaQHsxloc/",
   },
   {
@@ -1480,7 +1480,7 @@ window.PROPIEDADES = [
     precio: "$ 230.000.000",
     area: "79 m²",
     detalle: "5.º piso · 1 parqueadero · Administración $250.000 · Libre de deudas",
-    imagen: "images/prop-10-apto-boston.jpg",
+    imagen: "prop-10-apto-boston.jpg",
     enlace: "https://www.instagram.com/p/DcRy8GNkZpY/",
   },
   {
@@ -1493,7 +1493,7 @@ window.PROPIEDADES = [
     banos: 3,
     area: "336 m²",
     detalle: "Estrato 4 · Garaje doble · Terraza y patio · Se escuchan ofertas",
-    imagen: "images/prop-11-casa-santa-ana.jpg",
+    imagen: "prop-11-casa-santa-ana.jpg",
     enlace: "https://www.instagram.com/p/DbyM03oxyV-/",
   },
   {
@@ -1506,7 +1506,7 @@ window.PROPIEDADES = [
     banos: 2,
     area: "76 m²",
     detalle: "4.º piso · Estrato 4 · Parqueadero privado · Edificio de 8 años",
-    imagen: "images/prop-12-apto-madeira.jpg",
+    imagen: "prop-12-apto-madeira.jpg",
     enlace: "https://www.instagram.com/p/Dbld31jkaxf/",
   },
   {
@@ -1519,7 +1519,7 @@ window.PROPIEDADES = [
     banos: 2,
     area: "71,54 m²",
     detalle: "3.er piso · Estrato 3 · Parqueadero privado · Administración $300.000",
-    imagen: "images/prop-13-apto-puerto-real.jpg",
+    imagen: "prop-13-apto-puerto-real.jpg",
     enlace: "https://www.instagram.com/p/DblcVecEevX/",
   },
   {
@@ -1530,7 +1530,7 @@ window.PROPIEDADES = [
     precio: "$ 4.800.000.000",
     area: "1.115 m²",
     detalle: "4 parqueaderos · Oficinas en dos pisos · Portón para camiones · Energía de 440 V",
-    imagen: "images/prop-14-bodega-via-40.jpg",
+    imagen: "prop-14-bodega-via-40.jpg",
     enlace: "https://www.instagram.com/p/DajKGXYkeGL/",
   },
 ];
